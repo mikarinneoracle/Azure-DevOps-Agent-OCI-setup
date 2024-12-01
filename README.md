@@ -9,8 +9,7 @@ Stack then allows to configure the agent parameters for the Agent and VM creatio
     <li>Azure DevOps organization url</li>
     <li>Azure DevOps PAT</li>
     <li>Agent pool name (default is 'Default')</li>
-    <li>VM shape (ocpus and memory)</li>
-    <li>public ssh key to login to the VM (optional)</li>
+    <li>VM shape (OCPUs, memory and boot volume disk size)</li>
 </ul>
 <p>
 You can delete the created resources any time using stack destroy and re-create them again using the stack apply.

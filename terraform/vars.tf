@@ -31,11 +31,6 @@ variable "vm_shape_mem" {
   description = "Agent memory (GB)"
 }
 
-variable "ssh_public_key" {
-  description = "Your public ssh key to login to the Agent vm"
-  default = ""
-}
-
 variable "agent_file" {
   description = "Azure Devops Agent tar file"
   default = "https://vstsagentpackage.azureedge.net/agent/3.248.0/vsts-agent-linux-x64-3.248.0.tar.gz"
