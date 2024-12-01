@@ -26,6 +26,7 @@ resource "oci_core_instance" "agent_vm" {
   source_details {
     source_type = "image"
     source_id   = local.image_id
+    boot_volume_size_in_gbs  = var.vm_shape_disk
   }
 
   metadata = {

@@ -31,6 +31,11 @@ variable "vm_shape_mem" {
   description = "Agent memory (GB)"
 }
 
+variable "vm_shape_disk" {
+  default = "200"
+  description = "Agent boot volume disk size (GB)"
+}
+
 variable "agent_file" {
   description = "Azure Devops Agent tar file"
   default = "https://vstsagentpackage.azureedge.net/agent/3.248.0/vsts-agent-linux-x64-3.248.0.tar.gz"
