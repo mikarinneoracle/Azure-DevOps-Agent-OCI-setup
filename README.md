@@ -5,9 +5,10 @@ Deploy Azure Devops Agent creation stack to OCI Resource Manager (Terraform) usi
 <p>
 Stack then allows to configure the agent parameters for the Agent and VM creation:
 <ul>
+    <li>Agent and VM name</li>
     <li>Azure DevOps organization url</li>
     <li>Azure DevOps PAT</li>
-    <li>Agent pool name (default is 'Default'</li>
+    <li>Agent pool name (default is 'Default')</li>
     <li>VM shape (ocpus and memory)</li>
     <li>public ssh key to login to the VM (optional)</li>
 </ul>
