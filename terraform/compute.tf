@@ -1,7 +1,7 @@
 resource "oci_core_instance" "agent_vm" {
   availability_domain = lookup(data.oci_identity_availability_domains.this.availability_domains[0], "name")
   compartment_id      = var.compartment_ocid
-  display_name        = "Azure DevOps agent"
+  display_name        = var.agent_vm_name
   shape               = var.vm_shape
   freeform_tags = {
     Managed = var.tags

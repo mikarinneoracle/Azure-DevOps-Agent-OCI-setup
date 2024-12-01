@@ -6,8 +6,13 @@ variable "compartment_ocid" {
   description = "Compartment for Agent"
 }
 
+variable "agent_vm_name" {
+  default = "Azure DevOps agent"
+  description = "Agent and VM name (Agent and VM name will be equal)"
+}
+
 variable "vm_image_name" {
-  default = "Oracle-Linux-8.10-2024.09.30-0"
+  default = "Oracle-Linux-Cloud-Developer-8.9-2024.02.29-0"
   description = "Agent image"
 }
 
