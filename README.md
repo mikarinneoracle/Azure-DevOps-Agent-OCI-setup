@@ -18,7 +18,7 @@ Stack then allows to configure the agent parameters for the Agent and VM creatio
 <p>
 <br>
 You can delete the created resources at any time using stack <code>destroy</code> and re-create them again using the stack <code>apply</code>. Before re-creating it is advisable to remove the exisiting agent from the Azure DevOps agent pool. Multiple
-agents can be set up by changing the default name of individual agents to something unique.
+agents can be set up by changing the default name <code>AzureDevOpsagent</code> of individual agents to something unique.
 <p>
 Terraform provider <code>oracle/oci</code> is installed so the created agent can be also used for Terraform pipelines including https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks 
 <p>
