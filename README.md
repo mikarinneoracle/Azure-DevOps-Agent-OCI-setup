@@ -1,6 +1,10 @@
 
 ### Resource Manager Terraform Stack to create self-hosted Azure DevOps Agent on OCI
 
+Benefits of using a self-hosted agent (besides using standards Azure DevOps tasks and oci scripting):
+- Run <code>oci cli</> and <code>oci sdk's</> as <code>instance principal</> that enables authentication and authorization without storing credentials on Azure DevOps via policies
+- Enables caching e.g. container images caching for fast builds
+
 Deploy Azure Devops Agent creation stack to OCI Resource Manager (Terraform) using the button below.
 <p>
 Stack then allows to configure the agent parameters for the Agent and VM creation:
