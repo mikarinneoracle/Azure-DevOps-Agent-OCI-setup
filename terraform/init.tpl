@@ -1,5 +1,7 @@
 #!/bin/bash
 
+/usr/libexec/oci-growfs -y
+
 mkdir -p /home/opc/myagent && cd /home/opc/myagent
 chown opc:opc /home/opc/myagent
 
