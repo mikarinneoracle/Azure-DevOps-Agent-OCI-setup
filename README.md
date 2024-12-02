@@ -3,7 +3,7 @@
 
 Benefits of using a self-hosted agent (besides using standard Azure DevOps pipeline tasks and oci scripting):
 <ul>
-    <li>Run <code>oci cli</code> as <code>instance principal</code> that enables authentication and authorization without storing credentials on Azure DevOps via OCI policies</li>
+    <li>Run <code>oci cli</code> scripting as <code>instance principal</code> that enables authentication and authorization via OCI <code>policies</code> without storing credentials on Azure DevOps side</li>
     <li>Enables caching e.g. container images caching for fast builds</li>
 </ul>
 
