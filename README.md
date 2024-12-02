@@ -28,6 +28,6 @@ Terraform takes a moment to complete and eventually the build agent should appea
 <p>
 <br>
 
-VM boot volume is 200M by default that can be adjusted per build needs.
+VM boot volume size is 200M by default that can be adjusted per build needs.
 <img src="azure-devops-agent-vm.jpg" width="1200" />
 <p>
