@@ -17,10 +17,10 @@ Stack then allows to configure the agent parameters for the Agent and VM creatio
 
 <p>
 <br>
-You can delete the created resources any time using stack destroy and re-create them again using the stack apply.
+You can delete the created resources any time using stack <code>destroy</code> and re-create them again using the stack <code>apply</code>.
 VM can also be stopped and started per preference.
 <p>
-Terraform provider oracle/oci is installed so this Agent can be used also for Terraform pipelines including https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks 
+Terraform provider <code>oracle/oci</code> is installed so this Agent can be used also for Terraform pipelines including https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks 
 <p>
 <br>
 
