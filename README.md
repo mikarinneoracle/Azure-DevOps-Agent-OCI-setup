@@ -21,3 +21,11 @@ VM can also be stopped and started per preference.
 <p>
 Terraform provider oracle/oci is installed so this Agent can be used also for Terraform pipelines including https://marketplace.visualstudio.com/items?itemName=ms-devlabs.custom-terraform-tasks 
 <p>
+
+Terraform takes a moment to complete and eventually the build agent should appear in Azure DevOps agent pool.
+<img src="azure-devops-agent.jpg" width="800" />
+<p>
+
+VM boot volume is 200M by default that can be adjusted per build needs.
+<img src="azure-devops-agent-vm.jpg" width="800" />
+<p>
