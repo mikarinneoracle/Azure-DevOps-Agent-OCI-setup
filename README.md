@@ -16,6 +16,7 @@ Stack then allows to configure the agent parameters for the Agent and VM creatio
 [![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/mikarinneoracle/Azure-DevOps-Agent-OCI-setup/releases/download/latest/azure-agent-stack.zip)
 
 <p>
+<br>
 You can delete the created resources any time using stack destroy and re-create them again using the stack apply.
 VM can also be stopped and started per preference.
 <p>
