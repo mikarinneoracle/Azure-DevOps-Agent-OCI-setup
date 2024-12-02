@@ -1,5 +1,5 @@
 
-### Resource Manager Terraform Stack to create Azure DevOps Agent on OCI
+### Resource Manager Terraform Stack to create self-hosted Azure DevOps Agent on OCI
 
 Deploy Azure Devops Agent creation stack to OCI Resource Manager (Terraform) using the button below.
 <p>
