@@ -25,13 +25,15 @@ Terraform provider <code>oracle/oci</code> is installed so the created agent can
 <br>
 
 Terraform takes a moment to complete and eventually the build agent should appear in Azure DevOps agent pool.
+<br>
 <img src="azure-devops-agent.jpg" width="1200" />
 <p>
 <br>
 
 VM boot volume size is 200M by default that can be adjusted per build needs during the Terraform stack creation.
+<br>
 <img src="azure-devops-agent-vm.jpg" width="1200" />
 <br>
 <br>
-A bigger VM shape performs better. The defaults are 1 OCPU and 8GB memory can be also adjusted during the Terraform stack creation.
+A bigger VM shape performs better. The defaults are 1 OCPU and 8GB memory that can be also adjusted during the Terraform stack creation.
 <p>
