@@ -38,7 +38,7 @@ variable "vm_shape_disk" {
 
 variable "agent_file" {
   description = "Azure Devops Agent tar file"
-  default = "https://vstsagentpackage.azureedge.net/agent/3.248.0/vsts-agent-linux-x64-3.248.0.tar.gz"
+  default = "https://vstsagentpackage.azureedge.net/agent/4.251.0/vsts-agent-linux-x64-4.251.0.tar.gz"
 }
 
 variable "agent_url" {
