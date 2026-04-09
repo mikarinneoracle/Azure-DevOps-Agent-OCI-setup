@@ -12,7 +12,7 @@ variable "agent_vm_name" {
 }
 
 variable "vm_image_name" {
-  default = "Oracle-Linux-Cloud-Developer-8.9-2024.02.29-0"
+  default = "Oracle-Linux-Cloud-Developer-8.10-2025.01.31-0"
   description = "Agent image"
 }
 
@@ -38,7 +38,7 @@ variable "vm_shape_disk" {
 
 variable "agent_file" {
   description = "Azure Devops Agent tar file"
-  default = "https://vstsagentpackage.azureedge.net/agent/4.251.0/vsts-agent-linux-x64-4.251.0.tar.gz"
+  default = "https://download.agent.dev.azure.com/agent/4.271.0/vsts-agent-linux-x64-4.271.0.tar.gz"
 }
 
 variable "agent_url" {
