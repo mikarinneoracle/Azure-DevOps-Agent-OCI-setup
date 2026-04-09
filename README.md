@@ -16,6 +16,7 @@ Stack then allows to configure the agent parameters for the Agent and VM creatio
     <li>Azure DevOps PAT</li>
     <li>Agent pool name (default is 'Default')</li>
     <li>VM shape (OCPUs, memory and boot volume disk size)</li>
+    <li>ssh public key for VM login (optional)</li>
 </ul>
 <p>
 
