@@ -6,11 +6,11 @@ resource "oci_core_instance" "agent_vm" {
   freeform_tags = {
     Managed = var.tags
   }
-  
+
   shape_config {
     baseline_ocpu_utilization = "BASELINE_1_1"
-    memory_in_gbs     = var.vm_shape_mem
-    ocpus             = var.vm_shape_ocpus
+    memory_in_gbs             = var.vm_shape_mem
+    ocpus                     = var.vm_shape_ocpus
   }
 
   create_vnic_details {
@@ -24,13 +24,16 @@ resource "oci_core_instance" "agent_vm" {
   }
 
   source_details {
-    source_type = "image"
-    source_id   = local.image_id
-    boot_volume_size_in_gbs  = var.vm_shape_disk
+    source_type             = "image"
+    source_id               = local.image_id
+    boot_volume_size_in_gbs = var.vm_shape_disk
   }
 
-  metadata = {
-    user_data           = base64encode(data.template_file.init.rendered)
-  }
+  metadata = merge(
+    {
+      user_data = base64encode(data.template_file.init.rendered)
+    },
+    var.ssh_key != "(no key)" ? { ssh_authorized_keys = var.ssh_key } : {}
+  )
 
 }
