@@ -2,6 +2,9 @@
 
 /usr/libexec/oci-growfs -y
 
+dnf install -y https://packages.microsoft.com/config/rhel/8/packages-microsoft-prod.rpm
+dnf install -y azure-cli
+
 mkdir -p /home/opc/myagent && cd /home/opc/myagent
 chown opc:opc /home/opc/myagent
 
